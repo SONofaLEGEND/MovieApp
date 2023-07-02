@@ -1,0 +1,59 @@
+<div class="login-page">
+    <div class="split-screen">
+        <div class="right">
+            <form [formGroup]="loginForm" (ngSubmit)="login(loginForm)">
+                <section class="copy">
+                    <h2>LOGIN</h2>
+                    <div class="login-container">
+                        <p>No Account? <a routerLink="/register"><strong>Sign up</strong></a></p>
+                    </div>
+                </section>
+                <div class="input-container">
+                    <label for="email">Email ID</label>
+                    <input type="text" id = "email" formControlName = "email" name = "email" [ngClass]="{'is-invalid': submitted && loginForm.controls.email.errors}">
+                    <div *ngIf="submitted && loginForm.controls.email.errors" class = "error">
+                        <div *ngIf="submitted && loginForm.controls.email.errors.required">
+                            Email is required
+                        </div>
+                        <div *ngIf="submitted && loginForm.controls.email.errors.email">
+                            Enter a Valid Email ID
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="input-container">
+                    <label for="password">Password</label>
+                    <input type="password" id = "password" formControlName = "password" name = "password" [ngClass]="{'is-invalid': submitted && loginForm.controls.password.errors}">
+                    <div *ngIf="submitted && loginForm.controls.password.errors" class = "error">
+                        <div *ngIf="submitted && loginForm.controls.password.errors.required">
+                            Password is required
+                        </div>
+                        <div *ngIf="submitted && loginForm.controls.password.errors.minlength">
+                            Password should be atleast 8 characters.
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="input-container cta">
+                    <label class = "checkbox-container">
+                        <input type="checkbox">
+                        <span class = "checkmark"></span>
+                        Remember Me.
+            
+                    </label>
+                </div>
+                <button type="submit" class="signup-btn">Login</button>
+                
+            </form>
+        </div>
+        <div class="left">
+            <section class="copy">
+                <h1>WELCOME BACK</h1>
+                <p>To the one-stop destination for all your movie needs</p>
+  
+            </section>
+        </div>
+        
+    </div>
+  </div>

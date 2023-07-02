@@ -1,0 +1,86 @@
+img{
+    width: 100%;
+    height: auto;
+}
+
+h1
+{
+    font-family: 'Baron';
+    font-size: 2rem;;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: 'Baron';
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+h2 {
+    font-family: 'Progress';
+    font-size: 1.2rem;
+}
+p{
+    color: #ffffff;
+    font-family: 'Poiret';
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+a{
+    
+    color: #ffffff;
+    text-decoration: none;
+}
+.link {
+    background-color: #E50914;
+    
+}
+a:hover{
+    background-color: #E50914;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+.rowposter{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.rowimg
+{
+    max-height: 100px;
+    object-fit: contain;
+    width: 100%;
+    box-sizing: content-box;
+    transition: transform 450ms;
+    margin-right: 7px;
+}
+
+.rowimg:hover
+{
+    transform: scale(1.09);
+    cursor: pointer;
+}
+
+.largeposter{
+    max-height: 300px;
+}
+
+.rowposter::-webkit-scrollbar
+{
+    display: none;
+}
+.contain {
+    background: url(../../../../assets/images/fht1.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: contain;
+
+}
+.genre {
+    color: #19A7CE;
+    font-size: 2rem;
+    font-family: 'Progress';
+}

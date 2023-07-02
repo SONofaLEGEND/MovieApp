@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: 'Dosis';
+    src: url(./assets/fonts/Dosis-Medium.ttf);
+}
+@font-face {
+    font-family: 'Poiret';
+    src: url(./assets/fonts/PoiretOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Cornerstone';
+    src: url(./assets/fonts/Cornerstone.ttf);
+}
+
+@font-face {
+    font-family: 'Josefin';
+    src: url(./assets/fonts/JosefinSlab-Medium.ttf);
+}
+@font-face {
+    font-family: 'Emberly';
+    src: url(./assets/fonts/Emberly-Bold.ttf);
+}
+@font-face {
+    font-family: "Baron";
+    src: url(./assets/fonts/BaronNeue-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Nordic';
+    src: url(../src/assets/fonts/Nordic.ttf);
+}
+
+@font-face {
+    font-family: 'Stoked';
+    src: url(../src/assets/fonts/stoked.ttf);
+}
+
+@font-face {
+    font-family: 'Northwest';
+    src: url(../src/assets/fonts/NORTHWEST-Rough.otf);
+
+}
+
+@font-face {
+    font-family: 'Nueu Montreal';
+    src: url(../src/assets/fonts/PPNeueMontreal-Medium.otf);
+}
+
+@font-face {
+    font-family: 'ABT';
+    src: url(../src/assets/fonts/DEMO-atbserif-rg.otf);
+}
+
+@font-face {
+    font-family: 'Corporate';
+    src: url(../src/assets/fonts/Corporate.otf);
+}
+
+@font-face {
+    font-family: 'Bosca';
+    src: url(../src/assets/fonts/Bosca.ttf);
+}
+
+@font-face {
+    font-family: 'Pockota';
+    src: url(../src/assets/fonts/Pockota-Medium.otf);
+}
+@font-face {
+    font-family: 'Progress';
+    src: url(../src/assets/fonts/Progress.ttf);
+}
