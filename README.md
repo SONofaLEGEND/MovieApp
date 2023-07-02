@@ -1,11 +1,5 @@
 # MovieApp
 
-## Demo 
-
-<a href="https://youtu.be/hNkVhUMS8Q8">
-  <img src="https://img.youtube.com/vi/hNkVhUMS8Q8/0.jpg" alt="Video Thumbnail">
-</a>
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
